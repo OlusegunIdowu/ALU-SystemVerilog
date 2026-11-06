@@ -1,0 +1,26 @@
+VCD info: dumpfile alu_signals.vcd opened for output.
+=== ALU Testbench ===
+PASSED TEST: ALU_ADD basic
+PASSED TEST: ALU_ADD zero
+PASSED TEST: ALU_ADD carry out
+PASSED TEST: ALU_ADD signed overflow
+PASSED TEST: ALU_ADD negative overflow
+PASSED TEST: ALU_SUB basic
+PASSED TEST: ALU_SUB equal
+PASSED TEST: ALU_SUB negative result
+PASSED TEST: ALU_SUB signed overflow
+PASSED TEST: ALU_AND mask lower nibble
+PASSED TEST: ALU_AND alternating bits zero
+PASSED TEST: ALU_OR alternating bits
+PASSED TEST: ALU_OR zeros
+PASSED TEST: ALU_XOR self
+PASSED TEST: ALU_XOR alternating
+PASSED TEST: ALU_SLL by 4
+PASSED TEST: ALU_SLL overflow left
+PASSED TEST: ALU_SRL fills with zero
+PASSED TEST: ALU_SRA preserves sign bit
+PASSED TEST: ALU_SRA positive no sign extend
+
+=== Results: 20 passed, 0 failed ===
+ALL TESTS PASSED
+alu_tb.sv:136: $finish called at 200 (1s)

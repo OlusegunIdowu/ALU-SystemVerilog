@@ -61,6 +61,5 @@ All 20 tests passed.
     Requirements: Icarus Verilog
 
     - Terminal:
-        iverilog -g2012 -o alu_sim alu.sv alu_tb.sv
-        vvp alu_sim
+        make test 
 
